@@ -192,7 +192,7 @@ if __name__ == "__main__":
 #     )
     launch(
         main,
-        num_gpus_per_machine=2,
+        num_gpus_per_machine=1,
         num_machines=1,
         machine_rank=0,
         dist_url="auto",
