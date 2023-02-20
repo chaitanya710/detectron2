@@ -38,6 +38,9 @@ from detectron2.evaluation import (
 )
 from detectron2.modeling import GeneralizedRCNNWithTTA
 
+
+from detectron2.data.datasets.coco import load_coco_json, register_coco_instances
+
 def register_custom_datasets():
     # doclaynet dataset
     DATASET_ROOT = "/kaggle/input/doclaynet/"
